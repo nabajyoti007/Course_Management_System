@@ -42,9 +42,8 @@ public class Main {
         else if (student.semester==2){
 
             semester.secondSemester();
-            int tFees = 28000;
-            int x = student.waiver*tFees;
             int tFee = 28000;
+            int x = student.waiver*tFee;
             int tFeeWithWaiver=(tFee -  (x/100));
             System.out.println("\nTotal Credits : 14");
             System.out.println("Tuition Fees : "+tFeeWithWaiver);
