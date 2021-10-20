@@ -56,4 +56,58 @@ public class Semester extends Student{
         }
     }
 
+    public void forthSemester() {
+
+        String forthSem[] = {
+                "ACC-2111 Principles of Accounting                      3",
+                "CEE-2110 Engineering Drawing                           3",
+                "MAT-2111 Co-ordinate geometry and Vector Analysis      3",
+                "CSE-2117 Computer Algorithms and Complexity            3",
+                "CSE-1316 Computer Algorithms and Complexity Sessional  1"
+        };
+
+        System.out.println("\nThe courses available in Forth Semester are:\n ");
+        System.out.println("Course No.      Course Title                        Credit");
+        for (int i = 0; i < forthSem.length; i++) {
+            System.out.println(forthSem[i]);
+        }
+    }
+
+    public void fifthSemester() {
+
+        String fifthSem[] = {
+                "ECO-2211 Principles of Economics                   3",
+                "MAT-2213 Probability and Statistics                3",
+                "PHY-2211 General Physics                           3",
+                "PHY-2212 General Physics Laboratory                1",
+                "CSE-2213 Object Oriented Programming               3",
+                "CSE-2214 Object Oriented Programming Sessional              1"
+        };
+
+        System.out.println("\nThe courses available in Fifth Semester are:\n ");
+        System.out.println("Course No.      Course Title                        Credit");
+        for (int i = 0; i < fifthSem.length; i++) {
+            System.out.println(fifthSem[i]);
+        }
+    }
+    public void sixthSemester() {
+
+        String sixthSem[] = {
+                "CHE-2311 Chemistry                                 2",
+                "CHE-2312 Chemistry Laboratory                       1",
+                "EEE-2317 Digital Electronics                       3",
+                "EEE-2318 Digital Electronics Laboratory          1.5",
+                "CSE-2319 Database Management System                3",
+                "CSE-2320 Database Management System Sessional      1",
+                "CSE-2321 Data Communication                        3"
+        };
+
+        System.out.println("\nThe courses available in Sixth Semester are:\n ");
+        System.out.println("Course No.      Course Title                        Credit");
+        for (int i = 0; i < sixthSem.length; i++) {
+            System.out.println(sixthSem[i]);
+        }
+
+    }
+
 }
