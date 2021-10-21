@@ -161,4 +161,49 @@ public class Semester extends Student{
             System.out.println(ninthSem[i]);
         }
     }
+    public void tenthSemester() {
+
+        String tenthSem[] = {
+                "EEE-4127 VLSI I                                    2",
+                "EEE-4128 VLSI I Laboratory                         1",
+                "CSE-4111 Management Information System             3",
+                "CSE-4113 Computer Graphics                         3",
+                "CSE-4114 Computer Graphics Sessional               1",
+                "CSE-4119 Artifical Intelligence                    3"
+        };
+
+        System.out.println("\nThe courses available in Tenth Semester are:\n ");
+        System.out.println("Course No.      Course Title                        Credit");
+        for (int i = 0; i < tenthSem.length; i++) {
+            System.out.println(tenthSem[i]);
+        }
+    }
+    public void eleventhSemester() {
+
+        String eleventhSem[] = {
+                "CSE-4211   Web Technologies                          3",
+                "CSE-4212   Web Technologies Sessional                1",
+                "One course from the list of optional courses         3",
+                "CSE-4800   Project/Thesis(Proposal)                  1"
+        };
+
+        System.out.println("\nThe courses available in Eleventh Semester are:\n ");
+        System.out.println("Course No.    Course Title                       Credit");
+        for (int i = 0; i < eleventhSem.length; i++) {
+            System.out.println(eleventhSem[i]);
+        }
+    }
+    public void twelfthSemester() {
+
+        String twelfthSem[] = {
+                "CSE-4801 Project/Thesis(Finalize & Submission)                                   3",
+                "One course from the list of optional courses                                     3"
+        };
+
+        System.out.println("\nThe courses available in Twelfth Semester are:\n ");
+        System.out.println("Course No.      Course Title                        Credit");
+        for (int i = 0; i < twelfthSem.length; i++) {
+            System.out.println(twelfthSem[i]);
+        }
+    }
 }

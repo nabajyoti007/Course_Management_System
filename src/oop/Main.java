@@ -136,6 +136,42 @@ public class Main {
 
         }
 
+        else if (student.semester==10){
+
+            semester.tenthSemester();
+            int tFee = 26000;
+            int x = student.waiver*tFee;
+            int tFeeWithWaiver=(tFee -  (x/100));
+            System.out.println("\nTotal Credits : 13");
+            System.out.println("Tuition Fees : "+tFeeWithWaiver);
+            System.out.println("Other Fees : "+otherFee);
+            System.out.println("Total Fees : "+(tFeeWithWaiver+otherFee));
+
+        }
+        else if (student.semester == 11) {
+
+            semester.eleventhSemester();
+            int tFee = 16000;
+            int x = student.waiver * tFee;
+            int tFeeWithWaiver = (tFee - (x / 100));
+            System.out.println("\nTotal Credits : 14");
+            System.out.println("Tuition Fees : " + tFeeWithWaiver);
+            System.out.println("Other Fees : " + otherFee);
+            System.out.println("Total Fees : " + (tFeeWithWaiver + otherFee));
+
+        }
+        else if (student.semester==12){
+
+            semester.twelfthSemester();
+            int tFee = 12000;
+            int x = student.waiver*tFee;
+            int tFeeWithWaiver=(tFee -  (x/100));
+            System.out.println("\nTotal Credits : 13");
+            System.out.println("Tuition Fees : "+tFeeWithWaiver);
+            System.out.println("Other Fees : "+otherFee);
+            System.out.println("Total Fees : "+(tFeeWithWaiver+otherFee));
+
+        }
 
     }
 }
