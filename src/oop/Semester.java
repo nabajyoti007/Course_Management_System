@@ -109,5 +109,56 @@ public class Semester extends Student{
         }
 
     }
+    public void seventhSemester() {
 
+        String seventhdSem[] = {
+                "MGT-3111 Industrial Management                 3",
+                "CSE-3111 Numerical Methods                     3",
+                "CSE-3112 Numerical Methods Sessional           1",
+                "CSE-3115 Computer Networks                     3",
+                "CSE-3116 Computer Networks laboratory          1",
+                "CSE-3117 Computer Architecture & Design        3"
+        };
+
+        System.out.println("\nThe courses available in Seventh Semester are:\n ");
+        System.out.println("Course No.      Course Title                Credit");
+        for (int i = 0; i < seventhdSem.length; i++) {
+            System.out.println(seventhdSem[i]);
+        }
+    }
+    public void eighthSemester() {
+
+        String eighthdSem[] = {
+                "EEE-3211 Microprocessor,Assembly Language & Computer Interfacing                    3",
+                "EEE-3212 Microprocessor, Assembly Language & Computer Interfacing laboratory        1",
+                "CSE-3211 Operating System                                                           2",
+                "CSE-3212 Operating System Sessional                                                 1",
+                "CSE-3213 Digital Signal Processing                                                  3",
+                "CSE-3213 Digital Signal Processing Sessional                                        1"
+        };
+
+        System.out.println("\nThe courses available in Eighth Semester are:\n ");
+        System.out.println("Course No.              Course Title                                            Credit");
+        for (int i = 0; i < eighthdSem.length; i++) {
+            System.out.println(eighthdSem[i]);
+        }
+    }
+    public void ninthSemester() {
+
+        String ninthSem[] = {
+                "CSE-3315 Compiler Design & Construction                                 3",
+                "CSE-3316 Compiler Design & Construction: Sessional                      1",
+                "CSE-3317 Java Programming                                               3",
+                "CSE-3318 Java Programming: Sessional                                    1",
+                "CSE-3319 Software Engineering and Information System Design             3",
+                "CSE-3320 Software Engineering and Information System Design Sessional   1",
+                "CSE-3300 Project-1                                                      2"
+        };
+
+        System.out.println("\nThe courses available in Ninth Semester are:\n ");
+        System.out.println("Course No.              Course Title                                  Credit");
+        for (int i = 0; i < ninthSem.length; i++) {
+            System.out.println(ninthSem[i]);
+        }
+    }
 }

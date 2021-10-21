@@ -99,6 +99,42 @@ public class Main {
             System.out.println("Total Fees : "+(tFeeWithWaiver+otherFee));
 
         }
+        else if (student.semester == 7) {
+
+            semester.seventhSemester();
+            int tFee = 28000;
+            int x = student.waiver * tFee;
+            int tFeeWithWaiver = (tFee - (x / 100));
+            System.out.println("\nTotal Credits : 14");
+            System.out.println("Tuition Fees : " + tFeeWithWaiver);
+            System.out.println("Other Fees : " + otherFee);
+            System.out.println("Total Fees : " + (tFeeWithWaiver + otherFee));
+
+        }
+        else if (student.semester == 8) {
+
+            semester.eighthSemester();
+            int tFee = 28000;
+            int x = student.waiver * tFee;
+            int tFeeWithWaiver = (tFee - (x / 100));
+            System.out.println("\nTotal Credits : 14");
+            System.out.println("Tuition Fees : " + tFeeWithWaiver);
+            System.out.println("Other Fees : " + otherFee);
+            System.out.println("Total Fees : " + (tFeeWithWaiver + otherFee));
+
+        }
+        else if (student.semester == 9) {
+
+            semester.ninthSemester();
+            int tFee = 28000;
+            int x = student.waiver * tFee;
+            int tFeeWithWaiver = (tFee - (x / 100));
+            System.out.println("\nTotal Credits : 14");
+            System.out.println("Tuition Fees : " + tFeeWithWaiver);
+            System.out.println("Other Fees : " + otherFee);
+            System.out.println("Total Fees : " + (tFeeWithWaiver + otherFee));
+
+        }
 
 
     }
