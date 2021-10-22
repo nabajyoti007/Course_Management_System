@@ -65,7 +65,7 @@ public class Main {
         }
         else if (student.semester==4){
 
-            semester.forthSemester();
+            semester.fourthSemester();
             int tFee = 23000;
             int x = student.waiver*tFee;
             int tFeeWithWaiver=(tFee -  (x/100));
@@ -154,7 +154,7 @@ public class Main {
             int tFee = 16000;
             int x = student.waiver * tFee;
             int tFeeWithWaiver = (tFee - (x / 100));
-            System.out.println("\nTotal Credits : 14");
+            System.out.println("\nTotal Credits : 8");
             System.out.println("Tuition Fees : " + tFeeWithWaiver);
             System.out.println("Other Fees : " + otherFee);
             System.out.println("Total Fees : " + (tFeeWithWaiver + otherFee));
@@ -166,7 +166,7 @@ public class Main {
             int tFee = 12000;
             int x = student.waiver*tFee;
             int tFeeWithWaiver=(tFee -  (x/100));
-            System.out.println("\nTotal Credits : 13");
+            System.out.println("\nTotal Credits : 6");
             System.out.println("Tuition Fees : "+tFeeWithWaiver);
             System.out.println("Other Fees : "+otherFee);
             System.out.println("Total Fees : "+(tFeeWithWaiver+otherFee));

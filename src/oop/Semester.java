@@ -56,9 +56,9 @@ public class Semester extends Student{
         }
     }
 
-    public void forthSemester() {
+    public void fourthSemester() {
 
-        String forthSem[] = {
+        String fourthSem[] = {
                 "ACC-2111 Principles of Accounting                      3",
                 "CEE-2110 Engineering Drawing                           3",
                 "MAT-2111 Co-ordinate geometry and Vector Analysis      3",
@@ -68,8 +68,8 @@ public class Semester extends Student{
 
         System.out.println("\nThe courses available in Forth Semester are:\n ");
         System.out.println("Course No.      Course Title                        Credit");
-        for (int i = 0; i < forthSem.length; i++) {
-            System.out.println(forthSem[i]);
+        for (int i = 0; i < fourthSem.length; i++) {
+            System.out.println(fourthSem[i]);
         }
     }
 
@@ -81,11 +81,11 @@ public class Semester extends Student{
                 "PHY-2211 General Physics                           3",
                 "PHY-2212 General Physics Laboratory                1",
                 "CSE-2213 Object Oriented Programming               3",
-                "CSE-2214 Object Oriented Programming Sessional              1"
+                "CSE-2214 Object Oriented Programming Sessional     1"
         };
 
         System.out.println("\nThe courses available in Fifth Semester are:\n ");
-        System.out.println("Course No.      Course Title                        Credit");
+        System.out.println("Course No.      Course Title                    Credit");
         for (int i = 0; i < fifthSem.length; i++) {
             System.out.println(fifthSem[i]);
         }
@@ -94,16 +94,16 @@ public class Semester extends Student{
 
         String sixthSem[] = {
                 "CHE-2311 Chemistry                                 2",
-                "CHE-2312 Chemistry Laboratory                       1",
+                "CHE-2312 Chemistry Laboratory                      1",
                 "EEE-2317 Digital Electronics                       3",
-                "EEE-2318 Digital Electronics Laboratory          1.5",
+                "EEE-2318 Digital Electronics Laboratory            1.5",
                 "CSE-2319 Database Management System                3",
                 "CSE-2320 Database Management System Sessional      1",
                 "CSE-2321 Data Communication                        3"
         };
 
         System.out.println("\nThe courses available in Sixth Semester are:\n ");
-        System.out.println("Course No.      Course Title                        Credit");
+        System.out.println("Course No.      Course Title                     Credit");
         for (int i = 0; i < sixthSem.length; i++) {
             System.out.println(sixthSem[i]);
         }
@@ -173,7 +173,7 @@ public class Semester extends Student{
         };
 
         System.out.println("\nThe courses available in Tenth Semester are:\n ");
-        System.out.println("Course No.      Course Title                        Credit");
+        System.out.println("Course No.      Course Title                     Credit");
         for (int i = 0; i < tenthSem.length; i++) {
             System.out.println(tenthSem[i]);
         }
@@ -196,8 +196,8 @@ public class Semester extends Student{
     public void twelfthSemester() {
 
         String twelfthSem[] = {
-                "CSE-4801 Project/Thesis(Finalize & Submission)                                   3",
-                "One course from the list of optional courses                                     3"
+                "CSE-4801 Project/Thesis(Finalize & Submission)         3",
+                "One course from the list of optional courses           3"
         };
 
         System.out.println("\nThe courses available in Twelfth Semester are:\n ");

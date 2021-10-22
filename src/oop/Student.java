@@ -30,9 +30,6 @@ public class Student{
             else if(semester==3){
                 System.out.println("rd");
             }
-            else if(semester==4){
-                System.out.println("rd");
-            }
             else {
                 System.out.println("th");
             }
